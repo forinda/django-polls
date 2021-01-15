@@ -1,0 +1,19 @@
+{% extends 'polls/base.html' %}
+
+{% block content %}
+<div class="container">
+
+    <div class="content-wrap">
+        <h2>Click on a question to vote...</h2>
+    {% if latest_questions_list %}
+    <ul>
+        {% for question in latest_questions_list %}
+        <li ><a href="{% url 'polls:detail' question.id %}">{{question.question_text}}</a></li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No polls are available</p>
+    {% endif %}
+    </div>
+</div>
+{% endblock %}

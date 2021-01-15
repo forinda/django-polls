@@ -1,0 +1,17 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="object.print_board_numbers" />
+          <option value="object.empty_squares" />
+          <option value="object.get_move" />
+          <option value="object.make_move" />
+          <option value="object.print_board" />
+          <option value="object.current_winner" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
